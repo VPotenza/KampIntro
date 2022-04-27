@@ -17,11 +17,7 @@ namespace OOP3
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(new EsnafKredisiManager(), new SmsLoggerService());
 
-            List<IKrediManager> krediler = new List<IKrediManager>()
-            {
-                ihtiyacKrediManager, tasitKrediManager, konutKrediManager
-            };
-            //basvuruManager.KrediOnBilgilendirmesiYap(krediler);
+            
         }
     }
 }
